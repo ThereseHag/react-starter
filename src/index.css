@@ -5,9 +5,103 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.main-container {
+display:inline-block;
+width: 1440px;
+height: 450px;
+left: 0px;
+margin-top: 555px;
+bottom: 0px;
+background: #EEEDED;
+}
+
+
+.footer-links {
+position: absolute;
+width: 492px;
+height: 247px;
+left: 878px;
+top: 689px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 37px;
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: right;
+
+color: #323232;
+
+}
+.navigation {
+padding: 5px;
+margin: 5px;
+list-style-type: none;
+font-family: Montserrat;
+}
+
+.small-ellipse {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 610px;
+  left: 40px;
+  
+  background: #DA876C;
+  border-radius: 100%;
+}
+
+.another-ellipse {
+position: absolute;
+width: 200px;
+height: 200px;
+top: 470px;
+left: 230px;
+
+background: #387E8E;
+border-radius: 100%;
+}
+
+.rectangle {
+position: absolute;
+width: 1382px;
+height: 24px;
+left: 0px;
+top: 653px;
+
+background: #AB558B;
+border-radius: 0px 12px 12px 0px;
+}
+
+.ellipse1 {
+position: absolute;
+width: 500px;
+height: 500px;
+left: -23px;
+top: 689px;
+
+background: #387E8E;
+border-radius: 100%;
+}
+
+.ellipse2 {
+position: absolute;
+width: 340px;
+height: 340px;
+left: 352px;
+top: 596px;
+
+background: #DA876C;
+border-radius: 100%;
+
 }
